@@ -1,4 +1,4 @@
-
+-- NOT WORKING
 MAX_PODS = 90
 
 botname = character.name()
