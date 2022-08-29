@@ -1,5 +1,5 @@
 MAX_PODS = 90
-ELEMENTS_TO_GATHER = {84,43,44,46,47,38,35}
+ELEMENTS_TO_GATHER = {84,43,44,46,47,38,35,255}
 botname = character.name()
 botbucheronlevel = job:level(2)
 botalchimistelevel = job:level(26)
