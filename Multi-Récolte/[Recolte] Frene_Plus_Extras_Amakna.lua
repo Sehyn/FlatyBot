@@ -130,7 +130,7 @@ function move()
         { map = "5,7", gather = true, changeMap = "left" }, 
         { map = "4,7", gather = true, changeMap = "bottom" }, 
         { map = "4,8", gather = true, changeMap = "left" }, 
-        { map = "3,8", gather = true, changeMap = "left" }, 
+        { map = "3,8", gather = true, custom = fixstuck }, 
         { map = "2,8", gather = true, changeMap = "left" }, 
         { map = "1,8", gather = true, changeMap = "left" }, 
         { map = "0,8", gather = true, changeMap = "bottom" }, 
@@ -216,3 +216,7 @@ function bank()
     end
     
 
+function fixstuck()
+global:printMessage("[INFO] Fix stuck en 3,8")
+global:clickPosition(1, 207)
+end
