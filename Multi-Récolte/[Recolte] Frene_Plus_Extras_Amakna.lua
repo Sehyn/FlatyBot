@@ -171,7 +171,7 @@ end
 function RivageSufokien()
 	global:delay(2500)
 	global:printMessage("[ZAAP] Teleportation Rivage Sufokien")
-	map:changeMap("zaap(236,142,171967506)")
+	map:changeMap("zaap(236,142,88085249)")
 	global:delay(2500)
 end
 
